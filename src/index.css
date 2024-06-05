@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-shape {
+    @apply w-32 h-32;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  }
+
+  ion-icon {
+    font-size: 32px;
+    color: gray;
+  }
+  ion-icon:hover{
+    color: black;
+  }
