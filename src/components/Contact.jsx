@@ -5,8 +5,8 @@ function Contact() {
   return (
     <div className='h-screen mt-16'>
       <div className="flex justify-center items-center flex-col">
-        <h1 className="text-5xl font-bold ">Contact me</h1>
-        <p className="text-xl text-gray-500 mt-3">Get In Touch with me</p>
+        <h1 className="text-5xl font-bold dark:text-indigo-200">Contact me</h1>
+        <p className="text-xl text-gray-500 mt-3 dark:text-gray-300">Get In Touch with me</p>
       </div>
       <div className='flex justify-evenly mt-16'>
         <ContactCard head="LinkedIn Profile" desc="Let's Connect to stay updated and expand our professional network." img="https://wallpaperaccess.com/full/2068758.jpg" con="Connect" href="https://www.linkedin.com/in/shru2003/"/>
