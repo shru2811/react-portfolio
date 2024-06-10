@@ -4,13 +4,13 @@ import Card from "./Card";
 
 function About() {
   return (
-    <div className="h-screen">
+    <div className="h-screen mt-16">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-5xl font-bold ">About me</h1>
         <p className="text-xl text-gray-500 mt-3">My Introduction</p>
       </div>
 
-      <div className="flex text-center justify-evenly mt-16">
+      <div className="flex text-center items-center justify-evenly mt-16">
         <div className="flex flex-col justify-center items-center">
           <div className="flex gap-5 ">
             <Card head="Academic Achievement" desc="9+ GPA" />
@@ -23,7 +23,7 @@ function About() {
             (MERN stack), and DevOps, with a focus on computer networking, Linux
             commands, YAML, Docker, and Kubernetes.
           </p>
-          <button className="bg-gray-800 text-white px-5 py-3 rounded-2xl hover:bg-black animate-bounce hover:animate-none">
+          <button className="bg-gray-700 text-white px-5 py-3 rounded-xl hover:bg-black  transition duration-500 ease-in-out">
             Download CV
           </button>
         </div>

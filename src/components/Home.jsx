@@ -12,7 +12,7 @@ function Home() {
   });
   return (
     <div className="flex justify-between items-center h-screen">
-      <div>
+      <div className="pb-28">
         <img
           src={profile_svg}
           alt="My Picture"
