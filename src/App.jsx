@@ -10,7 +10,7 @@ function App() {
   
   return (
    <>
-     <div className="dark:bg-slate-800">
+     <div className="bg-[url('/src/images/lightPattern.png')] dark:bg-[url('/src/images/pattern2.png')]">
      <div className="w-4/5 m-auto h-screen">
       <Navbar />
       <Outlet />

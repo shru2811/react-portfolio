@@ -23,7 +23,7 @@ function About() {
             (MERN stack), and DevOps, with a focus on computer networking, Linux
             commands, YAML, Docker, and Kubernetes.
           </p>
-          <button className="bg-gray-700 text-white px-5 py-3 rounded-xl hover:bg-black  transition duration-500 ease-in-out dark:text-white dark:hover:bg-indigo-100 dark:hover:text-blue-600">
+          <button className="bg-gray-700 dark:bg-violet-800 text-white px-5 py-3 rounded-xl hover:bg-black  transition duration-500 ease-in-out dark:text-white dark:hover:bg-indigo-100 dark:hover:text-blue-600">
             Download CV
           </button>
         </div>

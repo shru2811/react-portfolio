@@ -1,17 +1,19 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import {FaBars, FaTimes} from "react-icons/fa";
+import './styles/navBar.css';
 // Link is used i place of anchor tag because anchor tag causes page reload
 function Navbar() {
-  const [darkMode,setDarkMode] = useState(false);
+  const navRef = useRef();
 
-  const toggleDarkMode = () =>{
-    setDarkMode(!darkMode)
+  const showNavbar = () =>{
+    navRef.current.classList.toggle("responsive_nav");
   }
-  return (
+   return (
     <div className="flex justify-between align-center py-5 ">
       <div className="text-4xl font-bold dark:text-white">Portfolio</div>
-      <div className="text-xl font-semibold">
+      <nav className="text-xl font-semibold">
         <ul className="flex justify-between gap-10 mt-2 text-gray-500 cursor-pointer">
           <li className="hover:text-black">
             <NavLink
@@ -54,10 +56,16 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <button onClick={toggleDarkMode}><ion-icon name="moon-outline" id="moon"></ion-icon></button>
+          <button>
+            <FaTimes className="text-black dark:text-white nav-btn" onClick={showNavbar}/>
+          </button>
+      <button>
+            <FaBars className="text-black dark:text-white nav-btn" onClick={showNavbar}
+            />
+          </button>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   );
 }

@@ -11,14 +11,14 @@ function Home() {
     deleteSpeed: 80,
   });
   return (
-    <div className="flex flex-col justify-center items-center h-screen">
-      {/* <div>
+    <div className="flex flex-col gap-16 items-center h-screen">
+      <div>
         <img
           src={profile_svg}
           alt="My Picture"
-          className="size-80 rounded-lg h-[16rem] w-[13rem]"
+          className="size-80 rounded-full h-[16rem] w-[16rem] border-4 border-black dark:border-purple-500"
         />
-      </div> */}
+      </div>
 
       <div className="flex flex-col justify-center items-center">
         <p className="text-4xl dark:text-purple-300">I'm</p>
