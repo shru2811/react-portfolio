@@ -22,7 +22,7 @@ function Home() {
 
       <div className="flex flex-col justify-center items-center">
         <p className="text-2xl md:text-4xl dark:text-purple-300">I'm</p>
-        <h1 className="text-center text-[2.8rem] md:text-7xl dark:text-purple-300">
+        <h1 className="text-center text-4xl md:text-7xl dark:text-purple-300">
           <span>{text}</span> <Cursor />
         </h1>
         <div className="flex mt-6">
