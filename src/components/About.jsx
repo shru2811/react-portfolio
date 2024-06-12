@@ -1,13 +1,16 @@
 import React from "react";
 import profile_svg from "../images/me.jpg";
 import Card from "./Card";
+import resume from "../assets/resume.pdf";
 
 function About() {
   return (
     <div className="pb-[9.85rem]">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-5xl font-bold dark:text-indigo-200">About me</h1>
-        <p className="text-xl text-gray-500 mt-3 dark:text-gray-300">My Introduction</p>
+        <p className="text-xl text-gray-500 mt-3 dark:text-gray-300">
+          My Introduction
+        </p>
       </div>
 
       <div className="flex md:flex-row flex-col flex-col-reverse text-center items-center justify-evenly mt-16">
@@ -24,7 +27,9 @@ function About() {
             commands, YAML, Docker, and Kubernetes.
           </p>
           <button className="bg-gray-700 dark:bg-violet-800 text-white px-5 py-3 rounded-xl hover:bg-black  transition duration-500 ease-in-out dark:text-white dark:hover:bg-indigo-100 dark:hover:text-blue-600">
-            Download CV
+            <a href={resume} download="Resume">
+              Download CV
+            </a>
           </button>
         </div>
         <img

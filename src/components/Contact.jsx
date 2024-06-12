@@ -3,7 +3,7 @@ import ContactCard from './ContactCard';
 
 function Contact() {
   return (
-    <div className='pb-[6.5rem] '>
+    <div className='pb-[6.5rem]'>
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-5xl font-bold dark:text-indigo-200">Contact me</h1>
         <p className="text-xl text-gray-500 mt-3 dark:text-gray-300">Get In Touch with me</p>

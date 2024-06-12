@@ -11,7 +11,7 @@ function Home() {
     deleteSpeed: 80,
   });
   return (
-    <div className="flex flex-col flex-around gap-16 items-center pb-24">
+    <div className="h-dvh flex flex-col flex-around gap-16 items-center pb-24">
       <div>
         <img
           src={profile_svg}
