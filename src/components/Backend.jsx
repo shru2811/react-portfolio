@@ -9,21 +9,21 @@ function Backend() {
           <div className="flex justify-between items-center">
           <ul>
             <li className="flex m-3">
-              <IoCheckmarkCircleSharp className="mt-2 mr-4" />
+              <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
               <div>
                 <h3 className="text-xl text-gray-900 dark:text-blue-200">Node JS</h3>
                 <p className="text-gray-500 dark:text-pink-300">Basic</p>   
               </div>
             </li>
             <li className="flex m-3">
-              <IoCheckmarkCircleSharp className="mt-2 mr-4" />
+              <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
               <div>
                 <h3 className="text-xl text-gray-900 dark:text-blue-200">ExpressJS</h3>
                 <p className="text-gray-500 dark:text-pink-300">Basic</p>
               </div>
             </li>
             <li className="flex m-3">
-              <IoCheckmarkCircleSharp className="mt-2 mr-4" />
+              <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
               <div>
                 <h3 className="text-xl text-gray-900 dark:text-blue-200">MYSQL</h3>
                 <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
@@ -32,21 +32,21 @@ function Backend() {
           </ul>
           <ul>
           <li className="flex m-3">
-              <IoCheckmarkCircleSharp className="mt-2 mr-4" />
+              <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
               <div>
                 <h3 className="text-xl text-gray-900 dark:text-blue-200">MongoDB</h3>
                 <p className="text-gray-500 dark:text-pink-300">Basic</p>
               </div>
             </li>
             <li className="flex m-3">
-              <IoCheckmarkCircleSharp className="mt-3 mr-4" />
+              <IoCheckmarkCircleSharp className="mt-3 mr-4 dark:text-white" />
               <div>
                 <h3 className="text-xl text-gray-900 dark:text-blue-200">Python</h3>
                 <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
               </div>
             </li>
             <li className="flex m-3">
-              <IoCheckmarkCircleSharp className="mt-3 mr-4" />
+              <IoCheckmarkCircleSharp className="mt-3 mr-4 dark:text-white" />
               <div>
                 <h3 className="text-xl text-gray-900 dark:text-blue-200">Java</h3>
                 <p className="text-gray-500 dark:text-pink-300">Intermediate</p>

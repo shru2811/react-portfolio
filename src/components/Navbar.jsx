@@ -39,8 +39,8 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-black dark:text-white"
-                    : "text-gray-500 md:hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 md:dark:hover:text-white "
+                    ? "md:text-black text-white md:dark:text-white"
+                    : "text-white md:text-gray-500 md:hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 md:dark:hover:text-white "
                 }`
               }
             >
@@ -53,8 +53,8 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-black dark:text-white"
-                    : "text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    ? "text-white md:text-black md:dark:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
                 }`
               }
             >
@@ -67,8 +67,8 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-black dark:text-white"
-                    : "text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    ? "text-white md:text-black md:dark:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
                 }`
               }
             >
@@ -81,8 +81,8 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-black dark:text-white"
-                    : "text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    ? "text-white md:text-black md:dark:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
                 }`
               }
             >
