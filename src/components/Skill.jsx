@@ -2,7 +2,7 @@ import React from "react";
 import { IoCheckmarkCircleSharp } from "react-icons/io5";
 function Skill() {
   return (
-    <div className="w-[26rem] h-[22rem] p-5 mt-16 rounded-xl border-2 border-solid shadow-2xl dark:border-blue-200 border-black hover:shadow transition-shadow transition-all ease-in duration-200 dark:bg-gray-800 bg-white">
+    <div className="w-[22rem] md:w-[26rem] h-[22rem] md:p-5 mt-16 rounded-xl border-2 border-solid shadow-2xl dark:border-blue-200 border-black hover:shadow transition-shadow transition-all ease-in duration-200 dark:bg-gray-800 bg-white">
       <h2 className="text-center text-2xl font-semibold m-5 dark:text-indigo-300">FrontEnd</h2>
       <div className="flex justify-between">
       <ul>

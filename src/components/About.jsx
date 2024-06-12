@@ -4,19 +4,19 @@ import Card from "./Card";
 
 function About() {
   return (
-    <div className="h-screen mt-16">
+    <div className="pb-[9.85rem]">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-5xl font-bold dark:text-indigo-200">About me</h1>
         <p className="text-xl text-gray-500 mt-3 dark:text-gray-300">My Introduction</p>
       </div>
 
-      <div className="flex text-center items-center justify-evenly mt-16">
+      <div className="flex md:flex-row flex-col flex-col-reverse text-center items-center justify-evenly mt-16">
         <div className="flex flex-col justify-center items-center">
           <div className="flex gap-5 ">
             <Card head="Academic Achievement" desc="9+ GPA" />
             <Card head="Hobby" desc="Graphic Designing" />
           </div>
-          <p className="w-3/4 m-10 dark:text-indigo-200">
+          <p className="my-8 md:w-3/4 md:m-10 dark:text-indigo-200">
             An aspiring Software Engineer & Developer , currently pursuing a
             B.Tech in Computer Science Engineering with a major in Big Data from
             UPES Dehradun. I am developing my expertise in DSA, web development
@@ -30,7 +30,7 @@ function About() {
         <img
           src={profile_svg}
           alt="My Picture"
-          className="size-80 rounded-xl"
+          className="size-80 rounded-xl mb-8"
         />
       </div>
     </div>

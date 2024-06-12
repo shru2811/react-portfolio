@@ -11,7 +11,7 @@ function App() {
   return (
    <>
      <div className="bg-[url('/src/images/lightPattern.png')] dark:bg-[url('/src/images/pattern2.png')]">
-     <div className="w-4/5 m-auto h-screen">
+     <div className="w-4/5 m-auto">
       <Navbar />
       <Outlet />
     </div>
