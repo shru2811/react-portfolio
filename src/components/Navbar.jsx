@@ -10,9 +10,9 @@ function Navbar() {
   };
 
   return (
-    <div className="py-5 md:flex" onClick={toggleMenu}>
-      <div className="text-4xl font-bold dark:text-white flex">
-        Portfolio
+    <div className="py-5 md:flex md:gap-10 lg:gap-44" onClick={toggleMenu}>
+      <div className="text-4xl font-bold dark:text-white">Portfolio</div>
+      <div>
         <button
           className="block md:hidden text-gray-500 dark:text-white ml-auto"
           onClick={toggleMenu}
@@ -20,7 +20,6 @@ function Navbar() {
           <FaBars className="text-xl" />
         </button>
       </div>
-
       <nav
         className={`text-xl md:text-lg font-semibold mt-2 md:mt-0 ${
           isMenuOpen ? "block" : "hidden"
