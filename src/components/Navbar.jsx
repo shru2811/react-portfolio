@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <div className="py-5 mt-16 md:flex" onClick={toggleMenu}>
+    <div className="py-5 md:flex" onClick={toggleMenu}>
       <div className="text-4xl font-bold dark:text-white flex">
         Portfolio
         <button
