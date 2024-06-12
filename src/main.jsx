@@ -6,7 +6,12 @@ import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
 import "./index.css";
-import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
 
 // const router = createBrowserRouter([
 //   {
@@ -35,14 +40,14 @@ import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements } f
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App/>}>
-    <Route path='' element={<Home />}/>
-    <Route path='about' element={<About />}/>
-    <Route path='skills' element={<Skills />}/>
-    <Route path='contact' element={<Contact />}/>
+    <Route path="/" element={<App />}>
+      <Route path="" element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="skills" element={<Skills />} />
+      <Route path="contact" element={<Contact />} />
     </Route>
   )
-)
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

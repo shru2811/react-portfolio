@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="bg-[url('/src/images/lightPattern.png')] dark:bg-[url('/src/images/pattern2.png')]">
-        <div className="w-4/5 m-auto flex flex-col justify-center h-[100vh]">
+        <div className="w-4/5 m-auto">
           <Navbar />
           <Outlet />
         </div>

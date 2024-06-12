@@ -10,10 +10,7 @@ function Navbar() {
   };
 
   return (
-    <div
-      className="flex md:flex-row flex-col justify-between md:items-center py-5"
-      onClick={toggleMenu}
-    >
+    <div className="py-5 mt-16 md:flex" onClick={toggleMenu}>
       <div className="text-4xl font-bold dark:text-white flex">
         Portfolio
         <button
