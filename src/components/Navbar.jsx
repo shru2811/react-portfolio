@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <div className="py-5 md:flex md:gap-10 lg:gap-44" onClick={toggleMenu}>
-      <div className="text-4xl font-bold dark:text-white">Portfolio</div>
+      <div className="text-4xl font-bold dark:text-white 2xl:text-7xl">Portfolio</div>
       <div>
         <button
           className="block md:hidden text-gray-500 dark:text-white ml-auto"
@@ -21,7 +21,7 @@ function Navbar() {
         </button>
       </div>
       <nav
-        className={`text-xl md:text-lg font-semibold mt-2 md:mt-0 ${
+        className={`text-xl md:text-lg 2xl:text-3xl font-semibold mt-2 md:mt-0 ${
           isMenuOpen ? "block" : "hidden"
         } md:flex md:items-center md:gap-10 absolute md:relative top-16 md:top-0 right-0 md:right-auto  p-5 md:p-0 w-full md:w-auto z-10 `}
       >

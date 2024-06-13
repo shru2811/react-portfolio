@@ -5,10 +5,10 @@ import resume from "../assets/resume.pdf";
 
 function About() {
   return (
-    <div className="pb-[9.85rem] ">
+    <div className="pb-[9.85rem] md:h-screen flex flex-col justify-evenly items-center lg:pr-10">
       <div className="flex justify-center items-center flex-col">
-        <h1 className="text-5xl font-bold dark:text-indigo-200">About me</h1>
-        <p className="text-xl text-gray-500 mt-3 dark:text-gray-300">
+        <h1 className="text-5xl font-bold dark:text-indigo-200 2xl:text-7xl">About me</h1>
+        <p className="text-xl 2xl:text-3xl text-gray-500 mt-3 dark:text-gray-300">
           My Introduction
         </p>
       </div>

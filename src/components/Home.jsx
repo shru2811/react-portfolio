@@ -11,16 +11,16 @@ function Home() {
     deleteSpeed: 80,
   });
   return (
-    <div className="h-dvh flex flex-col flex-around gap-16 items-center pb-24">
-      <div>
+    <div className=" flex flex-col justify-evenly items-center h-screen">
+      <div className="m-0 mt-5 ">
         <img
           src={profile_svg}
           alt="My Picture"
-          className="size-80 rounded-full h-[16rem] w-[16rem] border-4 border-black dark:border-purple-500"
+          className="rounded-full h-fit w-8/12 md:w-5/12 border-4 border-black dark:border-purple-500"
         />
       </div>
 
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center m-0">
         <p className="text-2xl md:text-4xl dark:text-purple-300">I'm</p>
         <h1 className="text-center text-4xl md:text-7xl dark:text-purple-300">
           <span>{text}</span> <Cursor />
