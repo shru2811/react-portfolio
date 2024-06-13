@@ -11,7 +11,9 @@ function Navbar() {
 
   return (
     <div className="py-5 md:flex md:gap-10 lg:gap-44" onClick={toggleMenu}>
-      <div className="text-4xl font-bold dark:text-white 2xl:text-7xl">Portfolio</div>
+      <div className="text-6xl font-bold dark:text-white 2xl:text-7xl font-['Dancing_Script'] ">
+        Shruti
+      </div>
       <div>
         <button
           className="block md:hidden text-gray-500 dark:text-white ml-auto"
@@ -35,7 +37,7 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "md:text-black text-white md:dark:text-white"
+                    ? "md:text-black text-white md:dark:text-white underline underline-offset-8"
                     : "text-white md:text-gray-500 md:hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 md:dark:hover:text-white "
                 }`
               }
@@ -49,7 +51,7 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-white md:text-black md:dark:text-white"
+                    ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
                     : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
                 }`
               }
@@ -63,7 +65,7 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-white md:text-black md:dark:text-white"
+                    ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
                     : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
                 }`
               }
@@ -77,7 +79,7 @@ function Navbar() {
               className={({ isActive }) =>
                 `${
                   isActive
-                    ? "text-white md:text-black md:dark:text-white"
+                    ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
                     : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
                 }`
               }

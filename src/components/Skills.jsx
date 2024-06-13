@@ -5,7 +5,7 @@ import Backend from "./Backend";
 
 function Skills() {
   return (
-    <div className="pb-[9.1rem] md:h-screen flex flex-col justify-evenly">
+    <div className="pb-[9.1rem] md:h-screen flex flex-col justify-evenly animate-slide-in-top">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-5xl font-bold dark:text-indigo-200 2xl:text-7xl">Skills</h1>
         <p className="text-xl text-gray-500 mt-3 dark:text-gray-300 2xl:text-3xl">

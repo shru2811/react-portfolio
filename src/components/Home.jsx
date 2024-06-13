@@ -12,11 +12,11 @@ function Home() {
   });
   return (
     <div className=" flex flex-col justify-evenly items-center h-screen">
-      <div className="m-0 mt-5 ">
+      <div className="m-0 ">
         <img
           src={profile_svg}
           alt="My Picture"
-          className="rounded-full h-fit w-8/12 md:w-5/12 border-4 border-black dark:border-purple-500"
+          className="rounded-full h-fit w-8/12 md:w-5/12 border-4 border-black dark:border-purple-500 animate-zoom-in"
         />
       </div>
 
