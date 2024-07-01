@@ -6,7 +6,7 @@ import resume from "../assets/resume.pdf";
 function About() {
   return (
     <div className="pb-[9.85rem] md:h-screen flex flex-col justify-evenly items-center lg:pr-10 animate-slide-in-top">
-      <div className="flex justify-center items-center flex-col">
+      <div className="flex justify-center items-center flex-col m-0">
         <h1 className="text-5xl font-bold dark:text-indigo-200 2xl:text-7xl">
           About me
         </h1>

@@ -3,8 +3,8 @@ import ContactCard from "./ContactCard";
 
 function Contact() {
   return (
-    <div className="pb-[6.5rem] md:h-screen flex flex-col justify-evenly animate-slide-in-top">
-      <div className="flex justify-center items-center flex-col">
+    <div className="pb-[6.5rem] xl:h-screen flex flex-col justify-evenly animate-slide-in-top">
+      <div className="flex justify-center items-center flex-col m-0">
         <h1 className="text-5xl font-bold dark:text-indigo-200 2xl:text-7xl">Contact me</h1>
         <p className="text-xl text-gray-500 mt-3 dark:text-gray-300 2xl:text-3xl">
           Get In Touch with me
