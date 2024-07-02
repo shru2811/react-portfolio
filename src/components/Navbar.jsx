@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
+import ThemeBtn from "./ThemeBtn";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -86,6 +87,9 @@ function Navbar() {
             >
               Contact Me
             </NavLink>
+          </li>
+          <li>
+            <ThemeBtn/>
           </li>
         </ul>
       </nav>
