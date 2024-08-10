@@ -7,6 +7,7 @@ import Skills from "./components/Skills";
 import { Outlet } from "react-router-dom"; //works as a frame where dynamically page renders
 import { ThemeProvider } from "./context/theme";
 import useTheme from "./context/theme";
+import Footer from "./components/Footer";
 
 function App() {
   const [themeMode, setThemeMode] = useState("light")
@@ -31,6 +32,7 @@ function App() {
         <div className="w-5/6 m-auto">
           <Navbar />
           <Outlet />
+          <Footer />
         </div>
       </div>
     </ThemeProvider>

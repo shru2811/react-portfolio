@@ -11,7 +11,7 @@ function Skill() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 HTML
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
@@ -20,7 +20,7 @@ function Skill() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 CSS
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
@@ -40,7 +40,7 @@ function Skill() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 React
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
@@ -49,7 +49,7 @@ function Skill() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-3 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Bootstrap
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Basic</p>
@@ -58,7 +58,7 @@ function Skill() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-3 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Tailwind
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Intermediate</p>

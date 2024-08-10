@@ -12,16 +12,16 @@ function Devops() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 GitHub
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
             </div>
           </li>
           <li className="flex m-3">
-            <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
+            <IoCheckmarkCircleSharp className="mt-2 dark:text-white" />
             <div>
-              <h3 className="text-lg md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-lg md:text-xl text-gray-900 dark:text-blue-200">
                 YAML
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Basic</p>
@@ -30,7 +30,7 @@ function Devops() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Linux
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
@@ -41,7 +41,7 @@ function Devops() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-2 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Networks
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Basic</p>
@@ -50,7 +50,7 @@ function Devops() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-3 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Docker
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Basic</p>
@@ -59,7 +59,7 @@ function Devops() {
           <li className="flex m-3">
             <IoCheckmarkCircleSharp className="mt-3 mr-4 dark:text-white" />
             <div>
-              <h3 className="text-xl md:text-2xl text-gray-900 dark:text-blue-200">
+              <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Kubernetes
               </h3>
               <p className="text-gray-500 dark:text-pink-300">Basic</p>
