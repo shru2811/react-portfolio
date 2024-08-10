@@ -5,6 +5,7 @@ import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
+import Projects from "./components/Projects.jsx";
 import "./index.css";
 import {
   Route,
@@ -44,7 +45,9 @@ const router = createBrowserRouter(
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="skills" element={<Skills />} />
+      <Route path="projects" element={<Projects />} />
       <Route path="contact" element={<Contact />} />
+
     </Route>
   )
 );

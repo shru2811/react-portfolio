@@ -76,6 +76,20 @@ function Navbar() {
           </li>
           <li className="" onClick={toggleMenu}>
             <NavLink
+              to="/projects"
+              className={({ isActive }) =>
+                `${
+                  isActive
+                    ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
+                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                }`
+              }
+            >
+              Projects
+            </NavLink>
+          </li>
+          <li className="" onClick={toggleMenu}>
+            <NavLink
               to="/contact"
               className={({ isActive }) =>
                 `${
