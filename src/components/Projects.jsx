@@ -54,9 +54,9 @@ function Projects() {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl dark:text-white font-bold text-center mb-4">Projects</h1>
-      <p className="text-xl dark:text-white text-center mb-8">From Concept to Creation: My Work Showcase</p>
+    <div className="container mx-auto px-4 py-8 animate-slide-in-top">
+      <h1 className="text-5xl font-bold dark:text-indigo-200 2xl:text-7xl text-center mb-4">Projects</h1>
+      <p className="text-xl text-gray-500 mt-3 dark:text-gray-300 2xl:text-3xl text-center mb-16">From Concept to Creation: My Work Showcase</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />

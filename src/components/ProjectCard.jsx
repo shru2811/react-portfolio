@@ -20,7 +20,7 @@ function ProjectCard({ head, desc, con, href, image }) {
         />
       </div>
       <div
-        className={`absolute inset-0 flex flex-col justify-center items-center p-4 bg-black bg-opacity-50 transition-opacity duration-300 ${
+        className={`absolute inset-0 flex flex-col justify-center items-center p-4 bg-black bg-opacity-70 transition-opacity duration-300 ${
           isHovered ? 'opacity-100' : 'opacity-0'
         }`}
       >
