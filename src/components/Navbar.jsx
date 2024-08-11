@@ -12,9 +12,9 @@ function Navbar() {
 
   return (
     <div className="py-5 flex items-center justify-between md:justify-start md:gap-6 lg:gap-40 px-5 md:px-10">
-      <div className="text-4xl md:text-5xl lg:text-6xl font-bold dark:text-white font-['Dancing_Script']">
+      <NavLink  className="text-4xl md:text-5xl lg:text-6xl font-bold dark:text-white font-['Dancing_Script']">
         Shruti
-      </div>
+      </NavLink>
       <div>
         <button
           className="block md:hidden text-gray-500 dark:text-white ml-auto"
@@ -39,7 +39,7 @@ function Navbar() {
                 `${
                   isActive
                     ? "md:text-black text-white md:dark:text-white underline underline-offset-8"
-                    : "text-white md:text-gray-500 md:hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 md:dark:hover:text-white "
+                    : "text-white md:text-gray-500 md:hover:text-black dark:text-indigo-200 md:dark:hover:text-white hover:underline hover:underline-offset-8 transition-all duration-300 ease-in-out transform hover:scale-105"
                 }`
               }
             >
@@ -53,7 +53,7 @@ function Navbar() {
                 `${
                   isActive
                     ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
-                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition-all duration-300 ease-in-out dark:text-indigo-200 dark:hover:text-white hover:underline hover:underline-offset-8 transform hover:scale-105"
                 }`
               }
             >
@@ -67,7 +67,7 @@ function Navbar() {
                 `${
                   isActive
                     ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
-                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition-all duration-300 ease-in-out dark:text-indigo-200 dark:hover:text-white hover:underline hover:underline-offset-8 transform hover:scale-105"
                 }`
               }
             >
@@ -81,7 +81,7 @@ function Navbar() {
                 `${
                   isActive
                     ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
-                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition-all duration-300 ease-in-out dark:text-indigo-200 dark:hover:text-white hover:underline hover:underline-offset-8 transform hover:scale-105"
                 }`
               }
             >
@@ -95,7 +95,7 @@ function Navbar() {
                 `${
                   isActive
                     ? "text-white md:text-black md:dark:text-white underline underline-offset-8"
-                    : "text-white md:text-gray-500 hover:text-black transition duration-500 ease-in-out dark:text-indigo-200 dark:hover:text-white"
+                    : "text-white md:text-gray-500 hover:text-black transition-all duration-300 ease-in-out dark:text-indigo-200 dark:hover:text-white hover:underline hover:underline-offset-8 transform hover:scale-105"
                 }`
               }
             >

@@ -52,7 +52,7 @@ function Skill() {
               <h3 className="text-xl md:text-xl text-gray-900 dark:text-blue-200">
                 Bootstrap
               </h3>
-              <p className="text-gray-500 dark:text-pink-300">Basic</p>
+              <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
             </div>
           </li>
           <li className="flex m-3">

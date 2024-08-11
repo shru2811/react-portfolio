@@ -6,7 +6,7 @@ function ContactCard(props) {
     <div>
         
 
-<div className="max-w-sm bg-white border dark:border-blue-200 dark:bg-gray-800 border-gray-200 rounded-lg shadow-xl hover:shadow transition-shadow transition-all ease-in duration-300">
+<div className="max-w-sm bg-white border dark:border-blue-200 dark:bg-gray-800 border-gray-200 rounded-lg shadow-sm hover:shadow-2xl transition-shadow transition-all ease-in duration-300 dark:shadow-white dark:shadow-md dark:hover:shadow-white dark:hover:shadow-transparent">
     <a href="#">
         <img className="rounded-t-lg" src={props.img} alt="" />
     </a>

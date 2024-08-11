@@ -14,21 +14,21 @@ function Contact() {
         <ContactCard
           head="LinkedIn Profile"
           desc="Let's Connect to stay updated and expand our professional network."
-          img="https://wallpaperaccess.com/full/2068758.jpg"
+          img="https://img.freepik.com/premium-photo/3d-linkedin-logo-background-design-social-media_697471-3.jpg"
           con="Connect"
           href="https://www.linkedin.com/in/shru2003/"
         />
         <ContactCard
           head="Gmail"
           desc="Feel free to mail me for anything. I'm looking forward to connecting with you!"
-          img="https://www.macobserver.com/wp-content/uploads/2020/02/workfeatured-gmail.jpg?x20197"
+          img="https://besthqwallpapers.com/Uploads/9-11-2021/181262/thumb2-gmail-3d-logo-4k-gray-brickwall-creative-postal-services.jpg"
           con="Mail Me"
           href="mailto:sshruti.2811@gmail.com"
         />
         <ContactCard
           head="GitHub"
           desc="Stay updated about my coding journey & source codes of the projects I'm working on."
-          img="https://techyeverything.com/wp-content/uploads/2020/10/GitHub.jpg"
+          img="https://umaar.github.io/experiments/github-3d-logo/render-2.jpg"
           con="Click Me"
           href="https://github.com/shru2811"
         />

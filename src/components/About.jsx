@@ -17,16 +17,15 @@ function About() {
 
       <div className="flex md:flex-row flex-col flex-col-reverse text-center items-center justify-evenly mt-16">
         <div className="flex flex-col justify-center items-center">
-          <div className="flex gap-5 lg:gap-8">
-            <Card head="Academic Achievement" desc="9+ GPA" />
-            <Card head="Hobby" desc="Graphic Designing" />
-          </div>
           <p className="my-8 md:w-3/4 md:m-10 lg:w-2/3 dark:text-indigo-200 text-lg lg:text-xl">
-            An aspiring Software Engineer & Developer, currently pursuing a
-            B.Tech in Computer Science Engineering with a major in Big Data from
-            UPES Dehradun. I am developing my expertise in DSA, web development
-            (MERN stack), and DevOps, with a focus on computer networking, Linux
-            commands, YAML, Docker, and Kubernetes.
+            I am a B.Tech Computer Science student at the University of
+            Petroleum and Energy Studies, specializing in Big Data. I am
+            passionate about technology and possess strong programming skills in
+            various languages, including Python, Java, and C. I am also
+            proficient in data structures, algorithms, and object-oriented
+            programming. Additionally, I have experience in web development,
+            DevOps & Data Analytics. I am eager to learn and contribute to
+            innovative projects.
           </p>
           <button className="bg-gray-700 dark:bg-violet-800 text-white px-5 py-3 rounded-xl hover:bg-black transition duration-500 ease-in-out dark:text-white dark:hover:bg-indigo-100 dark:hover:text-blue-600">
             <a href={resume} download="Resume">

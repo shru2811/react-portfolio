@@ -15,7 +15,7 @@ function Backend() {
               <h3 className="text-xl text-gray-900 dark:text-blue-200">
                 Node JS
               </h3>
-              <p className="text-gray-500 dark:text-pink-300">Basic</p>
+              <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
             </div>
           </li>
           <li className="flex m-3">
@@ -24,7 +24,7 @@ function Backend() {
               <h3 className="text-xl text-gray-900 dark:text-blue-200">
                 ExpressJS
               </h3>
-              <p className="text-gray-500 dark:text-pink-300">Basic</p>
+              <p className="text-gray-500 dark:text-pink-300">Intermediate</p>
             </div>
           </li>
           <li className="flex m-3">
