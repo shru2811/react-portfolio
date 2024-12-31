@@ -28,7 +28,7 @@ function App() {
   },[themeMode])
   return (
     <ThemeProvider value={{themeMode, darkTheme, lightTheme}}>
-      <div className="bg-repeat bg-[url('/src/images/lightPattern.png')] dark:bg-[url('/src/images/pattern2.png')] ">
+      <div className="bg-repeat bg-fixed h-full bg-[url('/src/images/lightPattern.png')] dark:bg-[url('/src/images/pattern2.png')] ">
         <div className="w-5/6 m-auto">
           <Navbar />
           <Outlet />

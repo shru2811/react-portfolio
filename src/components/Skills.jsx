@@ -6,7 +6,7 @@ import Backend from "./Backend";
 function Skills() {
   return (
     <div className="pb-[9.1rem] xl:h-screen flex flex-col items-center animate-slide-in-top">
-      <div className="flex m-0 justify-center items-center flex-col">
+      <div className="flex m-0 justify-center items-center flex-col container mx-auto px-4 py-8 animate-slide-in-top">
         <h1 className="text-5xl font-bold dark:text-indigo-200 2xl:text-7xl">Skill Set & Expertise</h1>
         <p className="text-xl text-gray-500 mt-3 dark:text-gray-300 2xl:text-3xl">
           My Skill Proficiency

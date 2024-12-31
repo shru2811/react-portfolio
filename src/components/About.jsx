@@ -5,8 +5,8 @@ import resume from "../assets/resume.pdf";
 
 function About() {
   return (
-    <div className="pb-24 flex flex-col justify-evenly items-center lg:pr-10 animate-slide-in-top lg:max-w-7xl mx-auto">
-      <div className="flex justify-center items-center flex-col m-0">
+    <div className="lg:h-screen pb-24 flex flex-col justify-evenly items-center lg:pr-10 animate-slide-in-top lg:max-w-7xl mx-auto">
+      <div className="flex justify-center items-center flex-col m-0 container mx-auto px-4 py-8 animate-slide-in-top">
         <h1 className="text-5xl font-bold dark:text-indigo-200 lg:text-6xl 2xl:text-7xl">
           About me
         </h1>

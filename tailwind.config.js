@@ -4,7 +4,11 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      scrollBehavior: {
+        auto: 'auto', // Disable smooth scrolling globally
+      },
+    },
   },
   plugins: [animations],
 };
