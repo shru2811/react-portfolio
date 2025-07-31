@@ -26,15 +26,14 @@ function Home() {
           <span>{text}</span> <Cursor />
         </h1>
         <div className="flex mt-6">
-          <hr className="w-12 border-t-2 border-gray-500 mt-3 mr-1 md:mr-3" />
+          {/* <hr className="w-12 border-t-2 border-gray-500 mt-3 mr-1 md:mr-3" /> */}
           <p className="md:text-xl text-center text-gray-500 dark:text-white">
-            Aspiring Web Developer
+            Software Engineering Intern @<span className="text-blue-500">Dell Technologies</span> | Final Year B.Tech CSE Student
           </p>
-          <hr className="w-12 border-t-2 border-gray-500 mt-3 ml-1 md:ml-3" />
+          {/* <hr className="w-12 border-t-2 border-gray-500 mt-3 ml-1 md:ml-3" /> */}
         </div>
         <p className="w-2/3 text-center mt-6 dark:text-gray-300 text-[0.8rem] md:text-lg">
-          Passionate and dedicated 3rd year B.Tech CSE student aspiring to be a
-          web developer and software engineer.
+          Final year B.Tech CSE student and Software Engineering Intern at Dell Technologies, passionate about full-stack development and building impactful digital solutions.
         </p>
       </div>
     </div>

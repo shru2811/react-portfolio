@@ -1,5 +1,5 @@
 import React from "react";
-import profile_svg from "../images/me.jpg";
+import profile_svg from "../images/me1.jpg";
 import Card from "./Card";
 import resume from "../assets/resume.pdf";
 
@@ -27,11 +27,11 @@ function About() {
             DevOps & Data Analytics. I am eager to learn and contribute to
             innovative projects.
           </p>
-          <button className="bg-gray-700 dark:bg-violet-800 text-white px-5 py-3 rounded-xl hover:bg-black transition duration-500 ease-in-out dark:text-white dark:hover:bg-indigo-100 dark:hover:text-blue-600">
+          {/* <button className="bg-gray-700 dark:bg-violet-800 text-white px-5 py-3 rounded-xl hover:bg-black transition duration-500 ease-in-out dark:text-white dark:hover:bg-indigo-100 dark:hover:text-blue-600">
             <a href={resume} download="Resume">
               Download CV
             </a>
-          </button>
+          </button> */}
         </div>
         <img
           src={profile_svg}

@@ -6,9 +6,18 @@ import currencyConverter from '../../public/currencyConverter.png';
 import todoList from '../../public/todoList.png';
 import noteTaking from '../../public/noteTaking.png';
 import oldPortfolio from '../../public/oldProtfolio.png';
+import analyza from '../../public/analyza.png';
 
 function Projects() {
   const projects = [
+    {
+      head: "Analyza: Data Analysis & Visualization Tool",
+      desc: "Analyza is a data analysis and visualization tool which is designed to help people in understanding their data, without the need of any prior technical knowledge.",
+      con: "Live Demo",
+      source: "https://github.com/shru2811/Analyza",
+      href: "https://analyza-dashboard.onrender.com/",
+      image: analyza
+    },
     {
       head: "FlashCard WebApp: BrainFlash",
       desc: "nteractive WebApp for effective learning, built with ReactJS, TailwindCSS & Appwrite",
