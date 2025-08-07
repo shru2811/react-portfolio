@@ -1,5 +1,5 @@
 import React from "react";
-import profile_svg from "../images/Portfolio1.png";
+import profile_svg from "../images/me1.jpg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import "../App.css";
 
@@ -16,23 +16,23 @@ function Home() {
         <img
           src={profile_svg}
           alt="My Picture"
-          className="rounded-full h-fit w-8/12 md:w-5/12 border-4 border-black dark:border-purple-500 animate-zoom-in"
+          className="rounded-full h-fit w-8/12 md:w-5/12 border-4 border-purple-500 animate-zoom-in"
         />
       </div>
 
       <div className="flex flex-col justify-center items-center m-0">
-        <p className="text-2xl md:text-4xl dark:text-purple-300">I'm</p>
-        <h1 className="text-center text-4xl md:text-7xl dark:text-purple-300">
+        <p className="text-2xl md:text-4xl text-purple-300">I'm</p>
+        <h1 className="text-center text-4xl md:text-7xl text-purple-300">
           <span>{text}</span> <Cursor />
         </h1>
         <div className="flex mt-6">
           {/* <hr className="w-12 border-t-2 border-gray-500 mt-3 mr-1 md:mr-3" /> */}
-          <p className="md:text-xl text-center text-gray-500 dark:text-white">
+          <p className="md:text-xl text-center text-white">
             Software Engineering Intern @<span className="text-blue-500">Dell Technologies</span> | Final Year B.Tech CSE Student
           </p>
           {/* <hr className="w-12 border-t-2 border-gray-500 mt-3 ml-1 md:ml-3" /> */}
         </div>
-        <p className="w-2/3 text-center mt-6 dark:text-gray-300 text-[0.8rem] md:text-lg">
+        <p className="w-2/3 text-center mt-6 text-gray-300 text-[0.8rem] md:text-lg">
           Final year B.Tech CSE student and Software Engineering Intern at Dell Technologies, passionate about full-stack development and building impactful digital solutions.
         </p>
       </div>
