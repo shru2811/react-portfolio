@@ -6,7 +6,7 @@ function Contact() {
     <div className="pb-[6.5rem] xl:h-screen flex flex-col justify-evenly animate-slide-in-top">
       <div className="flex justify-center items-center flex-col m-0 container mx-auto px-4 py-8 animate-slide-in-top">
         <h1 className="text-5xl font-bold text-indigo-200 2xl:text-7xl">Contact me</h1>
-        <p className="text-xl text-gray-500 mt-3 text-gray-300 2xl:text-3xl">
+        <p className="text-xl mt-3 text-gray-300 2xl:text-3xl">
           Get In Touch with me
         </p>
       </div>
