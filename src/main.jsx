@@ -6,6 +6,7 @@ import About from "./components/About.jsx";
 import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
 import Projects from "./components/Projects.jsx";
+import AnalyticsProvider from "./Analytics.jsx";
 import "./index.css";
 import {
   Route,
@@ -54,6 +55,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <AnalyticsProvider>
     <RouterProvider router={router} />
+    </AnalyticsProvider>
   </React.StrictMode>
 );
